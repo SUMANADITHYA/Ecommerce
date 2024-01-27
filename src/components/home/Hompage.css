@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: aqua;
+    color: black;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    padding: 5px;
+    margin-right: 10px;
+}
+.dropdown{
+    position: relative;
+    cursor: pointer;
+}
+.dropdownTrigger{
+    padding: 10px;
+}
+.dropdown-content{
+    position: absolute;
+    top: 100%;
+    background-color: aqua;
+    padding: 10px;
+}
+.user{
+    color: black;
+}

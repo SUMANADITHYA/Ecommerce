@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+
+ 
+  .container {
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ 
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+ 
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+ 
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+ 
+  select {
+    width: 30%; /* Adjust the width as needed */
+  }
+ 
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+ 
+  button:hover {
+    background-color: #0056b3;
+  }
+ 
+  /* Optional: Add media queries for responsiveness */
+  @media screen and (max-width: 600px) {
+    .container {
+      max-width: 100%;
+      margin: 20px;
+    }
+  }
+
+
+  #dd{
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+  border: 1px solid #ccc;
+ 
+
+
+  }
+  #mobile{
+    padding-right: 110px;
+  }
+  #form{
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 10px;
+    /* background-color: #63c6ff; */
+    box-shadow: #7995b3;
+  }
+
